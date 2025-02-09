@@ -1,0 +1,80 @@
+/*Body*/
+body{
+    margin: 0px;
+    background-color: #323030;
+}
+
+/*----------------------------------*/
+
+/*Header*/
+header{
+    background-color: #501919;
+}
+
+/*h1 Tag*/
+h1 {
+    color: #ffffff
+}
+
+/*Horizontal Rule Tag*/
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color: #501919
+}
+
+/*Navigation Bar*/
+.navbar ul{
+    list-style-type: none;
+    background-color: navy(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #a35a5a;
+}
+.navbar li{
+    float: left;
+}
+
+/*----------------------------------*/
+
+/*Main*/
+main{
+    margin: 20px;
+    background-color: #323030;
+}
+
+/*h2 Tag*/
+h2 {
+    color: #ffffff
+}
+
+/*Paragraph Tag*/
+p {
+    color: #ffffff
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/*----------------------------------*/
+
+footer {
+    background-color: #181212;
+    color: #ffffff;
+}
