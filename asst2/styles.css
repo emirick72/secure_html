@@ -18,28 +18,48 @@ h1 {
     color: #dfdddd
 }
 
-/*div class for dropdown menu here*/
-.dropdown {
+
+/*Navbar container*/
+.navbar {
+    overflow: hidden;
+    background-color:#501919;
+}
+
+/*Link inside the navbar*/
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*The left dropdown container*/
+.dropdownleft {
     float: left;
     overflow: hidden;
 }
 
-.dropdown .dropbtn {
+/*Left dropdown button*/
+.dropdownleft .dropbtnleft {
     font-size: 16px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
-    background-color: #2f0c0c;
-    font-family: inherit; /*Important for veritcal align on mobile phones*/
-    margin: 0; /*Important for veritcal align on mobile phones*/
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
-.dropdown .dropbtn:hover {
-    background-color: #1d0707;
+/*Background color for navbar links on hover*/
+.navbar a:hover, .dropdownleft:hover .dropbtnleft {
+    background-color: #a85151;
 }
 
-.dropdown-content {
+/*Left side dropdown content (hidden by default until hovered or clicked on)*/
+.left-dropdown-content {
     display: none;
     position: absolute;
     background-color: #501919;
@@ -48,22 +68,24 @@ h1 {
     z-index: 1;
 }
 
-.dropdown-content a {
+
+/*Links inside the left dropdown*/
+.left-dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a:hover {
-    background-color: #a35a5a;
-}
 
-.dropdown:hover .dropdown-content {
+/*Show the left dropdown menu on hover or click*/
+.dropdownleft:hover .left-dropdown-content {
     display: block;
 }
+
+/*----------------------------------*/
 
 /*Horizontal Rule Tag*/
 hr {
@@ -71,34 +93,6 @@ hr {
     border-width:0;
     color:gray;
     background-color: #501919
-}
-
-/*Navigation Bar*/
-.navbar {
-    overflow: hidden;
-}
-
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-}
-
-.navbar a:hover{
-    background-color: #a35a5a;
-}
-.navbar li{
-    display: inline;
 }
 
 /*----------------------------------*/
