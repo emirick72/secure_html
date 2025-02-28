@@ -18,9 +18,11 @@ h1 {
     color: #dfdddd
 }
 
+/*----------------------------------*/
 
 /*Navbar container*/
 .navbar {
+    display: flex;
     overflow: hidden;
     background-color:#501919;
 }
@@ -41,7 +43,7 @@ h1 {
     overflow: hidden;
 }
 
-/*Left dropdown button*/
+/*Left dropdown buttons*/
 .dropdownleft .dropbtnleft {
     font-size: 16px;
     border: none;
@@ -68,7 +70,6 @@ h1 {
     z-index: 1;
 }
 
-
 /*Links inside the left dropdown*/
 .left-dropdown-content a {
     float: none;
@@ -79,10 +80,13 @@ h1 {
     text-align: left;
 }
 
-
 /*Show the left dropdown menu on hover or click*/
 .dropdownleft:hover .left-dropdown-content {
     display: block;
+}
+
+.nav-rightside {
+    margin-left: auto;
 }
 
 /*----------------------------------*/
