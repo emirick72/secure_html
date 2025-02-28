@@ -186,6 +186,11 @@ table, th, td {
     color:#dfdddd;
 }
 
+.table_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     list-style-type: none;
     text-align: center;
