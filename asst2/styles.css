@@ -5,6 +5,19 @@ body{
 }
 
 /*----------------------------------*/
+/*Custom Scrollbar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #080505;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#851818, #a85151);
+    border-radius: 10px;
+}
+
+/*----------------------------------*/
 
 /*Header*/
 header{
