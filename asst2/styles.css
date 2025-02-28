@@ -191,6 +191,11 @@ table, th, td {
     margin-right: auto;
 }
 
+.advantages_table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     list-style-type: none;
     text-align: center;
